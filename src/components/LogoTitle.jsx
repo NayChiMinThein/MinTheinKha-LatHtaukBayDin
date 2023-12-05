@@ -1,8 +1,10 @@
+import Logo from "../../public/mintheinkha_logo.png"
+
 function LogoTitle() {
   return (
     <div className="mt-16">
         <img 
-          src="../../public/mintheinkha_logo.png"
+          src={Logo}
           className="w-24 lg:w-28 block mx-auto rounded-full"
           alt="mintheinkha_logo"
         />
