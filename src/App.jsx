@@ -5,7 +5,7 @@ import AnswersPage from "./pages/AnswersPage";
 import ResultPage from "./pages/ResultPage";
 
 import jsonData from "../data/baydin.json"
-// console.log(jsonData);
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -17,6 +17,7 @@ export default function App() {
           <Route path="/answer/:questionNo/:answerNo" element={<ResultPage data={jsonData}/>}/>
         </Routes>
       </BrowserRouter>
+      <Footer/>
     </div>
   )
 }
